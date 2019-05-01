@@ -27,8 +27,8 @@ https://material.io/design/typography/the-type-system.html#type-scale
 * h4
 * h5
 * h6
-* subtitl1
-* subtitl1
+* subtitle1
+* subtitle1
 * body1
 * body2
 * button
