@@ -2,7 +2,7 @@ import React from 'react'
 
 import './index.css'
 
-export const Typography = ({variant, children, ...other}) => {
+const Typography = ({variant, children, ...other}) => {
   let Element = 'p'
   let className = 'body1'
 
@@ -84,3 +84,5 @@ export const Typography = ({variant, children, ...other}) => {
 
   return <Element className={className} {...other}>{children}</Element>
 }
+
+export default Typography
