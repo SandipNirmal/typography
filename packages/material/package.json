@@ -2,11 +2,37 @@
   "name": "@typography/material",
   "version": "0.0.1",
   "description": "React typography component with material guideline",
-  "main": "index.js",
+  "main": "build/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack --watch",
+    "build": "webpack"
   },
-  "keywords": ["React", "Material", "Typography", "Design"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SandipNirmal/typography/tree/master/packages/material"
+  },
+  "peerDependencies": {
+    "react": "^16.8.6"
+  },
+  "keywords": [
+    "React",
+    "Material",
+    "Typography",
+    "Design"
+  ],
   "author": "Sandip Nirmal",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.8.6",
+    "webpack": "^4.30.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "css-loader": "^2.1.1",
+    "style-loader": "^0.23.1",
+    "webpack-cli": "^3.3.1"
+  }
 }
