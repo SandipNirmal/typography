@@ -18,8 +18,7 @@ import Typography from 'typography-material'
 
 #### Supported Variants
 
-It supports all the variants specified in material design guideline. 
-https://material.io/design/typography/the-type-system.html#type-scale
+It supports all the variants specified in material design guideline, [here](https://material.io/design/typography/the-type-system.html#type-scale).
 
 * h1
 * h2
