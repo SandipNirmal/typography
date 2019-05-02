@@ -1,8 +1,6 @@
 ## Typography for material design
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/SandipNirmal/typography/blob/master/LICENSE) 
-
-[![npm version](https://img.shields.io/badge/npm-v0.0.6-green.svg?style=flat)](https://www.npmjs.com/package/typography-material)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/SandipNirmal/typography/blob/master/LICENSE) [![npm version](https://img.shields.io/badge/npm-v0.0.6-green.svg?style=flat)](https://www.npmjs.com/package/typography-material)
 
 #### Install
 
