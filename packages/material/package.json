@@ -1,6 +1,6 @@
 {
   "name": "typography-material",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "React typography component with material guideline",
   "main": "dist/index.js",
   "scripts": {

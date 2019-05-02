@@ -2,7 +2,7 @@ import React from 'react'
 
 import './index.css'
 
-const Typography = ({variant, children, ...other}) => {
+const Typography = ({variant = 'body1', children, ...other}) => {
   let Element = 'p'
   let className = 'body1'
 
