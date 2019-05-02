@@ -1,10 +1,12 @@
 {
   "name": "typography-material",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "React typography component with material guideline",
   "main": "dist/index.js",
   "scripts": {
-    "prepublishOnly": "babel ./src --out-dir ./dist -s inline && cp ./src/*.css ./dist/"
+    "transpile": "babel src -d dist --copy-files",
+    "minify": "uglifyjs -o dist/index.min.js dist/index.js && rm dist/index.js && mv dist/index.min.js dist/index.js",
+    "prepublishOnly": "npm run transpile && npm run minify"
   },
   "repository": {
     "type": "git",
@@ -32,6 +34,7 @@
     "@babel/core": "^7.4.4",
     "@babel/preset-env": "^7.4.4",
     "@babel/preset-react": "^7.0.0",
-    "babel-loader": "^8.0.5"
+    "babel-loader": "^8.0.5",
+    "uglify-js": "^3.5.10"
   }
 }

@@ -6,7 +6,7 @@ const Typography = ({variant, children, ...other}) => {
   let Element = 'p'
   let className = 'body1'
 
-  switch (variant) {
+  switch (variant.toLowerCase()) {
     case 'h1':
       Element = 'h1'
       className = 'h1'
