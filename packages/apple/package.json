@@ -1,0 +1,40 @@
+{
+  "name": "typography-apple",
+  "version": "0.0.1",
+  "description": "React typography component for Apple Human Interface guideline.",
+  "main": "dist/index.js",
+  "scripts": {
+    "transpile": "babel src -d dist --copy-files",
+    "minify": "uglifyjs -o dist/index.min.js dist/index.js && rm dist/index.js && mv dist/index.min.js dist/index.js",
+    "prepublishOnly": "npm run transpile && npm run minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SandipNirmal/typography/tree/master/packages/apple"
+  },
+  "peerDependencies": {
+    "react": "*"
+  },
+  "keywords": [
+    "React",
+    "Typography",
+    "Apple",
+    "Design"
+  ],
+  "files": [
+    "dist/*"
+  ],
+  "author": "Sandip Nirmal",
+  "license": "MIT",
+  "dependencies": {
+    "react": "*"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "uglify-js": "^3.5.10"
+  }
+}
