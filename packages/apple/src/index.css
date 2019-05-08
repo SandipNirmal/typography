@@ -1,103 +1,78 @@
 /**
  * Typography
  */
- .h1 {
-  font-size: 6rem;
-  font-weight: 300;
-  line-height: 1;
-  letter-spacing: -0.01562em;
+.large-title {
+  font-size: 34px;
+  line-height: 1.08365;
+  font-weight: 600;
+  letter-spacing: -0.003em;
 }
 
-.h2 {
-  font-size: 3.75rem;
-  font-weight: 300;
-  line-height: 1;
-  letter-spacing: -0.00833em;
+.title1 {
+  font-size: 28px;
+  line-height: 1.125;
+  font-weight: 600;
+  letter-spacing: 0.004em;
 }
 
-.h3 {
-  font-size: 3rem;
-  font-weight: 400;
-  line-height: 1.04;
+.title2 {
+  font-size: 22px;
+  line-height: 1.59091;
   letter-spacing: 0em;
+  font-weight: 600;
 }
 
-.h4 {
-  font-size: 2.125rem;
-  font-weight: 400;
-  line-height: 1.17;
-  letter-spacing: 0.00735em;
+.title3 {
+  font-size: 20px;
+  line-height: 1.19048;
+  font-weight: 600;
+  letter-spacing: 0.011em;
 }
 
-.h5 {
-  font-size: 1.5rem;
-  font-weight: 400;
-  line-height: 1.33;
-  letter-spacing: 0em;
-}
-
-.h6 {
-  font-size: 1.25rem;
+.headline {
+  font-size: 17px;
+  line-height: 1.47059;
   font-weight: 500;
-  line-height: 1.6;
-  letter-spacing: 0.0075em;
+  letter-spacing: -0.022em;
 }
 
-.subtitle1 {
-  font-size: 1rem;
+.body {
+  font-size: 17px;
+  line-height: 1.47059;
   font-weight: 400;
-  line-height: 1.75;
-  letter-spacing: 0.00938em;
+  letter-spacing: -0.022em;
 }
 
-.subtitle2 {
-  font-size: 0.875rem;
-  font-weight: 500;
-  line-height: 1.57;
+.callout {
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 400;
+  letter-spacing: -0.022em;
+}
+
+.subhead {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
   letter-spacing: 0.00714em;
 }
 
-.body1 {
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.00938em;
+.footnote {
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 0.015em;
 }
 
-.body2 {
-  font-size: 0.875rem;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.01071em;
+.caption1 {
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0em;
+  color: #888;
 }
 
-.button {
-  font-size: 0.875rem;
-  font-weight: 500;
-  line-height: 1.75;
-  letter-spacing: 0.02857em;
-  text-transform: uppercase;
-}
-
-.caption {
-  font-size: 0.75rem;
-  font-weight: 400;
-  line-height: 1.66;
-  letter-spacing: 0.03333em;
-}
-
-.overline {
-  font-size: 0.625rem;
-  font-weight: 400;
-  line-height: 2.66;
-  letter-spacing: 0.08333em;
-  text-transform: uppercase;
-}
-
-.subtitle3 {
-  font-size: 0.625rem;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.08333em;
-  text-transform: uppercase;
+.caption2 {
+  font-size: 11px;
+  line-height: 13px;
+  letter-spacing: 0.015em;
+  color: #888;
 }
