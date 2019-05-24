@@ -27,6 +27,7 @@
   "author": "Sandip Nirmal",
   "license": "MIT",
   "dependencies": {
+    "prop-types": "^15.7.2",
     "react": "*"
   },
   "devDependencies": {

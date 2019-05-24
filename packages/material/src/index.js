@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 
 import './index.css'
 
@@ -83,6 +84,10 @@ const Typography = ({variant = 'body1', children, ...other}) => {
   }
 
   return <Element className={className} {...other}>{children}</Element>
+}
+
+Typography.propTypes = {
+  variant: PropTypes.string
 }
 
 export default Typography
