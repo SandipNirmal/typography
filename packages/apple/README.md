@@ -15,12 +15,12 @@ import Typography from 'typography-apple'
 
 <Typography />
 
-<Typography variant='caption' />
+<Typography variant='callout' />
 ```
 
 #### Supported Variants
 
-It supports all the variants specified in Apple's Juman interface guideline, [here](https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/typography/).
+It supports all the variants specified in Apple's Human interface guideline, [here](https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/typography/).
 
 * Large Title
 * Title1
